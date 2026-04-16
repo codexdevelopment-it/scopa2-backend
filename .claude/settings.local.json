@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(data[0]['text']\\)\")",
+      "Bash(python3 -c \" import json with open\\('/Users/murkrow/.claude/projects/-Users-murkrow-Desktop-Repos-scopa-2-scopa2-backend/ac9119f6-f581-4052-9aa7-54e18e81be13/tool-results/toulu_0168meRefDb3BJUgawkng7KN.json'\\) as f: data = json.load\\(f\\) print\\(data[0]['text'] if isinstance\\(data, list\\) else data\\) \")",
+      "Bash(docker compose:*)"
+    ]
+  }
+}
